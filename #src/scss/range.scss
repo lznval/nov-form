@@ -1,0 +1,82 @@
+#range__inputs {
+    max-width: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .range__inputs {
+        display: flex;
+        max-width: 190px;
+        position: relative;
+        border: 1px solid #D3D3D3;
+        border-radius: 4px;
+        &::before {
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 16px;
+            background: #D3D3D3;
+            top: 50%;
+            right: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+    }
+
+    #range__input_live,
+    #range__input_kitchen,
+    #range__input_floor,
+    #range__input_floor-house,
+    #range__input_region,
+    #range__input_area_house,
+    #range__input_floor_cottage {
+        display: none;
+    }
+
+    .range__input_item {
+        position: relative;
+        height: 40px;
+        display: flex;
+        align-items: baseline;
+        width: 95px;
+        padding: 9px 16px 10px 16px;
+        font-size: 13px;
+        line-height: 160%;
+        input {
+            width: 100%;
+            max-width: 40px;
+            margin: 0 3px;
+            font-weight: bold;
+            text-align: right;
+        }
+        span {
+            &:last-child {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .irs-handle {
+        width: 10px;
+        height: 10px;
+        background: #0090FF ;
+        border: none;
+        top: 0;
+        cursor: pointer;
+    }
+    .irs--round {
+        width: 170px;
+        top: -5px;
+        height: 100%;
+    }
+    .irs--round .irs-bar {
+        background-color: #0090FF;
+        height: 2px;
+        top: 4px;
+    }
+    .irs--round .irs-line {
+        background-color: #D3D3D3;
+        top: 4px;
+        height: 2px;
+    }
+}

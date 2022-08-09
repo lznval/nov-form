@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <title>Novosroy form</title>
+</head>
+<body>
+	<div class="wrapper">
+		<form class="form">
+			<div class="form-main">
+				<div class="form-main__title">Новостройки Санкт-Петербурга от застройщика</div>
+				<div class="form-main__search apartment">
+					<div class="form-main__search-block apartment">
+						<div class="form-main__search-category">
+							<div class="form-main__select-header">
+								<span class="form-main__select-current">Квартиры</span>
+								<div class="form-main__select-arrow"></div>
+							</div>
+							<div class="form-main__select-list">
+								<div class="form-main__select-item" data-form-type="apartment">Квартиры</div>
+								<div class="form-main__select-item" data-form-type="cottage">Коттеджные посёлки</div>
+								<div class="form-main__select-item" data-form-type="house">Дом</div>
+								<div class="form-main__select-item" data-form-type="region">Участок</div>
+								<div class="form-main__select-item" data-form-type="resale">Квартира на вторичном рынке</div>
+								<div class="form-main__select-item" data-form-type="new-building">Квартира в новостройке</div>
+								<div class="form-main__select-item" data-form-type="buildings">Жилые комплексы</div>
+							</div>
+						</div>
+						<div class="form-main__search-input">
+							<input type="text" placeholder="ЖК, застройщик, район, метро">
+						</div>
+						<div class="form-main__search-apartment">
+							<div class="form-main__select-header">
+								<span class="form-main__select-current">1 комн.</span>
+								<div class="form-main__select-arrow"></div>
+							</div>
+							<div class="form-main__select-list">
+								<div class="form-main__select-item">1, 2 комн.</div>
+								<div class="form-main__select-item">3 комн.</div>
+								<div class="form-main__select-item">4 комн.</div>
+							</div>
+						</div>
+						<div class="form-main__search-price">
+							<span>до</span>
+							<input type="text" placeholder="13 187 350">
+							<span>₽</span>
+						</div>
+						<div class="form-main__search-area">
+							<span>от</span>
+							<input type="text" placeholder="20.17">
+							<span>м²</span>
+						</div>
+					</div>
+					<div class="form-main__search-block cottage">
+						<div class="form-main__search-category">
+							<div class="form-main__select-header">
+								<span class="form-main__select-current">Коттеджные посёлки</span>
+								<div class="form-main__select-arrow"></div>
+							</div>
+							<div class="form-main__select-list">
+								<div class="form-main__select-item" data-form-type="apartment">Квартиры</div>
+								<div class="form-main__select-item" data-form-type="cottage">Коттеджные посёлки</div>
+								<div class="form-main__select-item" data-form-type="house">Дом</div>
+								<div class="form-main__select-item" data-form-type="region">Участок</div>
+								<div class="form-main__select-item" data-form-type="resale">Квартира на вторичном рынке</div>
+								<div class="form-main__select-item" data-form-type="new-building">Квартира в новостройке</div>
+								<div class="form-main__select-item" data-form-type="buildings">Жилые комплексы</div>
+							</div>
+						</div>
+						<div class="form-main__search-input">
+							<input type="text" placeholder="ЖК, застройщик, район, метро">
+						</div>
+						<div class="form-main__search-apartment">
+							<div class="form-main__select-header">
+								<span class="form-main__select-current">Таунхаус</span>
+								<div class="form-main__select-arrow"></div>
+							</div>
+							<div class="form-main__select-list">
+								<div class="form-main__select-item">Таунхаус</div>
+								<div class="form-main__select-item">Дом</div>
+								<div class="form-main__select-item">Домик</div>
+							</div>
+						</div>
+						<div class="form-main__search-price">
+							<span>до</span>
+							<input type="text" placeholder="13 187 350">
+							<span>₽</span>
+						</div>
+						<div class="form-main__search-area">
+							<span>от</span>
+							<input type="text" placeholder="20.17">
+							<span>м²</span>
+						</div>
+						<div class="form-main__search-cad">
+							<input type="text" placeholder="20">
+							<span>км</span>
+							<span>до КАД</span>
+						</div>
+					</div>
+					<div class="form-main__search-block house">
+						<div class="form-main__search-category">
+							<div class="form-main__select-header">
+								<span class="form-main__select-current">Дом</span>
+								<div class="form-main__select-arrow"></div>
+							</div>
+							<div class="form-main__select-list">
+								<div class="form-main__select-item" data-form-type="apartment">Квартиры</div>
+								<div class="form-main__select-item" data-form-type="cottage">Коттеджные посёлки</div>
+								<div class="form-main__select-item" data-form-type="house">Дом</div>
+								<div class="form-main__select-item" data-form-type="region">Участок</div>
+								<div class="form-main__select-item" data-form-type="resale">Квартира на вторичном рынке</div>
+								<div class="form-main__select-item" data-form-type="new-building">Квартира в новостройке</div>
+								<div class="form-main__select-item" data-form-type="buildings">Жилые комплексы</div>
+							</div>
+						</div>
+						<div class="form-main__search-input">
+							<input type="text" placeholder="ЖК, застройщик, район, метро">
+						</div>						
+						<div class="form-main__search-price">
+							<span>до</span>
+							<input type="text" placeholder="13 187 350">
+							<span>₽</span>
+						</div>
+						<div class="form-main__search-region">
+							<span>Участок от</span>
+							<input type="text" placeholder="20.17">
+							<span>сот</span>
+						</div>
+						<div class="form-main__search-area">
+							<span>от</span>
+							<input type="text" placeholder="20.17">
+							<span>м²</span>
+						</div>
+						<div class="form-main__search-cad">
+							<input type="text" placeholder="20.17">
+							<span>км</span>
+							<span>до КАД</span>
+						</div>
+					</div>
+				</div>
+				<div class="form-main__settings">
+					<div class="form-main__settings-parametrs">Дополнительные параметры</div>
+					<div class="form-main__settings-reset">
+						<button type="reset">Сбросить</button>
+					</div>
+					<div class="form-main__settings-count">Найдено 11 806 квартир в 1 829 ЖК</div>
+					<div class="form-main__settings-map"></div>
+					<div class="form-main__settings-submit">
+						<button type="submit">Показать предложения</button>
+					</div>
+				</div>
+			</div>
+			<div class="form-parametrs apartment">
+				<div class="form-parametrs-block apartment">
+					<div class="form-parametrs__apartment">
+						<div class="form-parametrs__title">Квартира</div>
+						<div class="form-parametrs__items">
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Тип кваритры</div>
+									<div class="form-parametrs__item-checkboxes">
+										<div class="form-parametrs__item-checkbox">
+											<input id="novostroika" type="checkbox">
+											<label for="novostroika">Квартира в новостройке</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="vtorichka" type="checkbox">
+											<label for="vtorichka">Вторичное жильё</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="perestupka" type="checkbox">
+											<label for="perestupka">Переступки</label>									
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Жилая площадь</div>
+									<div class="form-parametrs__item-range" id="range__inputs">
+										<div class="range__inputs">
+											<div class="range__input_item">
+												<span>от</span>
+												<input id="input_from_live" class="range__input" value="0">
+												<span>м²</span>
+											</div>
+											<div class="range__input_item">
+												<span>до</span>
+												<input id="input_to_live" class="range__input" value="0">
+												<span>м²</span>
+											</div>										
+										</div>
+										<input id="range__input_live" type="text" class="irs-hidden-input" tabindex="-1" value>									
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Площадь кухни</div>
+									<div class="form-parametrs__item-range" id="range__inputs">
+										<div class="range__inputs">
+											<div class="range__input_item">
+												<span>от</span>
+												<input id="input_from_kitchen" class="range__input" value="0">
+												<span>м²</span>
+											</div>
+											<div class="range__input_item">
+												<span>до</span>
+												<input id="input_to_kitchen" class="range__input" value="0">
+												<span>м²</span>
+											</div>										
+										</div>
+										<input id="range__input_kitchen" type="text" class="irs-hidden-input" tabindex="-1">									
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Высота потолков</div>
+									<div class="form-parametrs__item-radios">
+										<input id="m2.5" type="radio" value="m2.5" name="ceiling">
+										<label for="m2.5">от 2,5 м</label>
+	
+										<input id="m2.7" type="radio" value="m2.7" name="ceiling">
+										<label for="m2.7">от 2,7 м</label>
+	
+										<input id="m3" type="radio" value="m3" name="ceiling">
+										<label for="m3">от 3 м</label>
+	
+										<input id="m3.5" type="radio" value="m3.5" name="ceiling">
+										<label for="m3.5">от 3,5 м</label>
+	
+										<input id="m4" type="radio" value="m4" name="ceiling">
+										<label for="m4">от 4 м</label>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Этаж</div>
+									<div class="form-parametrs__item-range" id="range__inputs">
+										<div class="range__inputs">
+											<div class="range__input_item">
+												<span>от</span>
+												<input id="input_from_floor" class="range__input" value="0">											
+											</div>
+											<div class="range__input_item">
+												<span>до</span>
+												<input id="input_to_floor" class="range__input" value="0">
+											</div>										
+										</div>
+										<input id="range__input_floor" type="text" class="irs-hidden-input" tabindex="-1">									
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title hide">Этаж</div>
+									<div class="form-parametrs__item-radios">
+										<input id="last" type="radio" value="last" name="floor">
+										<label for="last">Последний</label>
+	
+										<input id="notfirst" type="radio" value="notfirst" name="floor">
+										<label for="notfirst">Не первый</label>
+	
+										<input id="notlast" type="radio" value="notlast" name="floor">
+										<label for="notlast">Не последний</label>									
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Санузел</div>
+									<div class="form-parametrs__item-checkboxes">
+										<div class="form-parametrs__item-checkbox">
+											<input id="joint" type="checkbox">
+											<label for="joint">Совмещенный</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="separate" type="checkbox">
+											<label for="separate">Раздельный</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="several" type="checkbox">
+											<label for="several">Несколько</label>									
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Отделка</div>
+									<div class="form-parametrs__item-radios">
+										<input id="withfurniture" type="radio" value="last" name="finish">
+										<label for="withfurniture">С меблировкой</label>
+	
+										<input id="clean" type="radio" value="clean" name="finish">
+										<label for="clean">Чистовая</label>
+	
+										<input id="pre_cleaning" type="radio" value="pre_cleaning" name="finish">
+										<label for="pre_cleaning">Предчистовая</label>
+	
+										<input id="rough" type="radio" value="rough" name="finish">
+										<label for="rough">Черновая</label>									
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-parametrs__house">
+						<div class="form-parametrs__title">Дом</div>
+						<div class="form-parametrs__items">
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Год постройки</div>
+									<div class="form-parametrs__item-select">
+										<div class="form-parametrs__select-header">
+											<span class="form-parametrs__select-current">Неважно</span>
+											<div class="form-parametrs__select-arrow"></div>
+										</div>
+										<div class="form-parametrs__select-list">
+											<div class="form-parametrs__select-item">2016</div>
+											<div class="form-parametrs__select-item">2017</div>
+											<div class="form-parametrs__select-item">2018</div>
+											<div class="form-parametrs__select-item">2019</div>
+											<div class="form-parametrs__select-item">2020</div>
+											<div class="form-parametrs__select-item">2021</div>
+											<div class="form-parametrs__select-item">2022</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Этажей в доме</div>
+									<div class="form-parametrs__item-range" id="range__inputs">
+										<div class="range__inputs">
+											<div class="range__input_item">
+												<span>от</span>
+												<input id="input_from_floor-house" class="range__input" value="0">
+											</div>
+											<div class="range__input_item">
+												<span>до</span>
+												<input id="input_to_floor-house" class="range__input" value="0">
+											</div>										
+										</div>
+										<input id="range__input_floor-house" type="text" class="irs-hidden-input" tabindex="-1" value>									
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Тип дома</div>
+									<div class="form-parametrs__item-radios">
+										<input id="brick" type="radio" value="brick" name="typehouse">
+										<label for="brick">Кирпичный</label>
+	
+										<input id="monolithic" type="radio" value="monolithic" name="typehouse">
+										<label for="monolithic">Монолитный</label>
+	
+										<input id="panel" type="radio" value="panel" name="typehouse">
+										<label for="panel">Панельный</label>
+	
+										<input id="brick_monolithic" type="radio" value="brick_monolithic" name="typehouse">
+										<label for="brick_monolithic">Кирпично-монолитный</label>
+	
+										<input id="block" type="radio" value="block" name="typehouse">
+										<label for="block">Блочный</label>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Способ передвижения</div>
+									<div class="form-parametrs__item-radios">
+										<input id="walk" type="radio" value="walk" name="transportation">
+										<label for="walk">Пешком</label>
+	
+										<input id="transport" type="radio" value="transport" name="transportation">
+										<label for="transport">Транспортом</label>
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Время до метро</div>
+									<div class="form-parametrs__item-radios">
+										<input id="min5" type="radio" value="min5" name="time_to_metro">
+										<label for="min5">до 5 мин</label>
+	
+										<input id="min10" type="radio" value="min10" name="time_to_metro">
+										<label for="min10">до 10 мин</label>
+	
+										<input id="min15" type="radio" value="min15" name="time_to_metro">
+										<label for="min15">до 15 мин</label>
+	
+										<input id="min30" type="radio" value="min30" name="time_to_metro">
+										<label for="min30">до 30 мин</label>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">
+										<span>Апартаменты</span>
+										<div class="form-parametrs__item-info">
+											<div class="form-parametrs__item-info_icon"></div>
+											<div class="form-parametrs__item-info_body">
+												<p class="title">Народный рейтинг (средняя оценка)</p>
+												<span class="text">Формируется на основе отзывов пользователей. Пользователи оценивают:</span>
+												<ol>
+													<li>Расположение</li>
+													<li>Проект (цена/качество)</li>
+													<li>Риски</li>
+												</ol>
+												<span class="text">Каждому из параметров присваивается оценка от <span class="green">5 (отлично)</span> до <span class="red">1 (плохо).</span></span>
+											</div>
+										</div>
+									</div>
+									<div class="form-parametrs__item-radios">
+										<input id="withoutapartments" type="radio" value="withoutapartments" name="apartments">
+										<label for="withoutapartments">Без апартаментов</label>
+	
+										<input id="onlyapartments" type="radio" value="onlyapartments" name="apartments">
+										<label for="onlyapartments">Только апартаменты</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-parametrs__rating">
+						<div class="form-parametrs__title">Рейтинги</div>
+						<div class="form-parametrs__items">
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">
+										<span>Народный рейтинг</span>
+										<div class="form-parametrs__item-info">
+											<div class="form-parametrs__item-info_icon"></div>
+											<div class="form-parametrs__item-info_body">
+												<p class="title">Народный рейтинг (средняя оценка)</p>
+												<span class="text">Формируется на основе отзывов пользователей. Пользователи оценивают:</span>
+												<ol>
+													<li>Расположение</li>
+													<li>Проект (цена/качество)</li>
+													<li>Риски</li>
+												</ol>
+												<span class="text">Каждому из параметров присваивается оценка от <span class="green">5 (отлично)</span> до <span class="red">1 (плохо).</span></span>
+											</div>
+										</div>
+									</div>
+									<div class="form-parametrs__item-select">
+										<div class="form-parametrs__select-header">
+											<span class="form-parametrs__select-current">Неважно</span>
+											<div class="form-parametrs__select-arrow"></div>
+										</div>
+										<div class="form-parametrs__select-list">
+											<div class="form-parametrs__select-item">1</div>
+											<div class="form-parametrs__select-item">2</div>
+											<div class="form-parametrs__select-item">3</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">
+										<span>Рейтинг портала</span>
+										<div class="form-parametrs__item-info">
+											<div class="form-parametrs__item-info_icon"></div>
+											<div class="form-parametrs__item-info_body">
+												<p class="title">Рейтинг портала (средняя оценка)</p>
+												<span class="text">Портал выводит среднюю оценку по трем критериям:</span>
+												<ol>
+													<li>Расположение</li>
+													<li>Проект (цена/качество)</li>
+													<li>Риски</li>
+												</ol>
+												<span class="text">Каждому из параметров присваивается оценка от <span class="green">5 (отлично)</span> до <span class="red">1 (плохо).</span></span>
+											</div>
+										</div>
+									</div>
+									<div class="form-parametrs__item-select">
+										<div class="form-parametrs__select-header">
+											<span class="form-parametrs__select-current">Неважно</span>
+											<div class="form-parametrs__select-arrow"></div>
+										</div>
+										<div class="form-parametrs__select-list">
+											<div class="form-parametrs__select-item">1</div>
+											<div class="form-parametrs__select-item">2</div>
+											<div class="form-parametrs__select-item">3</div>										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-parametrs__sell">
+						<div class="form-parametrs__title">Параметры продажи</div>
+						<div class="form-parametrs__items">
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title hide"></div>
+									<div class="form-parametrs__item-checkboxes">
+										<div class="form-parametrs__item-checkbox">
+											<input id="mortgage" type="checkbox">
+											<label for="mortgage">Ипотека</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="instalment" type="checkbox">
+											<label for="instalment">Рассрочка</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="military_mortgage" type="checkbox">
+											<label for="military_mortgage">Военная ипотека</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="rural_mortgage" type="checkbox">
+											<label for="rural_mortgage">Сельская ипотека</label>									
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>					
+					</div>
+					<div class="form-parametrs__advantages">
+						<div class="form-parametrs__title">Приемущества</div>
+						<div class="form-parametrs__items">
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title hide"></div>
+									<div class="form-parametrs__item-checkboxes">
+										<div class="form-parametrs__item-checkbox">
+											<input id="bay" type="checkbox">
+											<label for="bay">Рядом с заливом</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="embankment" type="checkbox">
+											<label for="embankment">На набережной</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="park" type="checkbox">
+											<label for="park">Рядом парк</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="window" type="checkbox">
+											<label for="window">С панорамными окнами</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="furniture" type="checkbox">
+											<label for="furniture">С меблировкой</label>									
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>		
+					</div>
+					<div class="form-parametrs__submit">
+						<div class="form-parametrs__submit__settings-reset">
+							<button type="reset">Сбросить</button>
+						</div>
+						<div class="form-parametrs__submit__settings-map"></div>
+						<div class="form-parametrs__submit__settings-submit">
+							<button type="submit">Показать 11 806 квартир в 1 829 ЖК</button>
+						</div>
+					</div>
+				</div>
+				<div class="form-parametrs-block cottage">
+					<div class="form-parametrs__object">
+						<div class="form-parametrs__title">Объект</div>
+						<div class="form-parametrs__items">							
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Площадь участка</div>
+									<div class="form-parametrs__item-range" id="range__inputs">
+										<div class="range__inputs">
+											<div class="range__input_item">
+												<span>от</span>
+												<input id="input_from_region" class="range__input" value="0">
+												<span>сот.</span>
+											</div>
+											<div class="range__input_item">
+												<span>до</span>
+												<input id="input_to_region" class="range__input" value="0">
+												<span>сот.</span>
+											</div>										
+										</div>
+										<input id="range__input_region" type="text" class="irs-hidden-input" tabindex="-1" value>									
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Площадь дома</div>
+									<div class="form-parametrs__item-range" id="range__inputs">
+										<div class="range__inputs">
+											<div class="range__input_item">
+												<span>от</span>
+												<input id="input_from_area_house" class="range__input" value="0">
+												<span>м²</span>
+											</div>
+											<div class="range__input_item">
+												<span>до</span>
+												<input id="input_to_area_house" class="range__input" value="0">
+												<span>м²</span>
+											</div>										
+										</div>
+										<input id="range__input_area_house" type="text" class="irs-hidden-input" tabindex="-1">									
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Статус земли</div>
+									<div class="form-parametrs__item-checkboxes">
+										<div class="form-parametrs__item-checkbox">
+											<input id="ijs" type="checkbox">
+											<label for="ijs">ИЖС</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="dnp" type="checkbox">
+											<label for="dnp">ДНП</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="lph" type="checkbox">
+											<label for="lph">ЛПХ</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="snt" type="checkbox">
+											<label for="snt">СНТ</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="mjs" type="checkbox">
+											<label for="mjs">МЖС</label>									
+										</div>
+									</div>									
+								</div>
+							</div>							
+						</div>
+					</div>
+					<div class="form-parametrs__village">
+						<div class="form-parametrs__title">Посёлок</div>
+						<div class="form-parametrs__items">
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Срок сдачи</div>
+									<div class="form-parametrs__item-select">
+										<div class="form-parametrs__select-header">
+											<span class="form-parametrs__select-current">Неважно</span>
+											<div class="form-parametrs__select-arrow"></div>
+										</div>
+										<div class="form-parametrs__select-list">
+											<div class="form-parametrs__select-item">2016</div>
+											<div class="form-parametrs__select-item">2017</div>
+											<div class="form-parametrs__select-item">2018</div>
+											<div class="form-parametrs__select-item">2019</div>
+											<div class="form-parametrs__select-item">2020</div>
+											<div class="form-parametrs__select-item">2021</div>
+											<div class="form-parametrs__select-item">2022</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Класс посёлка</div>
+									<div class="form-parametrs__item-checkboxes">
+										<div class="form-parametrs__item-checkbox">
+											<input id="economy" type="checkbox">
+											<label for="economy">Эконом</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="comfort" type="checkbox">
+											<label for="comfort">Комфорт</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="business" type="checkbox">
+											<label for="business">Бизнес</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="elite" type="checkbox">
+											<label for="elite">Элитный</label>									
+										</div>
+									</div>		
+								</div>
+							</div>							
+						</div>
+					</div>
+					<div class="form-parametrs__rating">
+						<div class="form-parametrs__title">Рейтинги</div>
+						<div class="form-parametrs__items">
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">
+										<span>Народный рейтинг</span>
+										<div class="form-parametrs__item-info">
+											<div class="form-parametrs__item-info_icon"></div>
+											<div class="form-parametrs__item-info_body">
+												<p class="title">Народный рейтинг (средняя оценка)</p>
+												<span class="text">Формируется на основе отзывов пользователей. Пользователи оценивают:</span>
+												<ol>
+													<li>Расположение</li>
+													<li>Проект (цена/качество)</li>
+													<li>Риски</li>
+												</ol>
+												<span class="text">Каждому из параметров присваивается оценка от <span class="green">5 (отлично)</span> до <span class="red">1 (плохо).</span></span>
+											</div>
+										</div>
+									</div>
+									<div class="form-parametrs__item-select">
+										<div class="form-parametrs__select-header">
+											<span class="form-parametrs__select-current">Неважно</span>
+											<div class="form-parametrs__select-arrow"></div>
+										</div>
+										<div class="form-parametrs__select-list">
+											<div class="form-parametrs__select-item">1</div>
+											<div class="form-parametrs__select-item">2</div>
+											<div class="form-parametrs__select-item">3</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">
+										<span>Рейтинг портала</span>
+										<div class="form-parametrs__item-info">
+											<div class="form-parametrs__item-info_icon"></div>
+											<div class="form-parametrs__item-info_body">
+												<p class="title">Рейтинг портала (средняя оценка)</p>
+												<span class="text">Портал выводит среднюю оценку по трем критериям:</span>
+												<ol>
+													<li>Расположение</li>
+													<li>Проект (цена/качество)</li>
+													<li>Риски</li>
+												</ol>
+												<span class="text">Каждому из параметров присваивается оценка от <span class="green">5 (отлично)</span> до <span class="red">1 (плохо).</span></span>
+											</div>
+										</div>
+									</div>
+									<div class="form-parametrs__item-select">
+										<div class="form-parametrs__select-header">
+											<span class="form-parametrs__select-current">Неважно</span>
+											<div class="form-parametrs__select-arrow"></div>
+										</div>
+										<div class="form-parametrs__select-list">
+											<div class="form-parametrs__select-item">1</div>
+											<div class="form-parametrs__select-item">2</div>
+											<div class="form-parametrs__select-item">3</div>										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-parametrs__advantages">
+						<div class="form-parametrs__title">Приемущества</div>
+						<div class="form-parametrs__items">
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title hide"></div>
+									<div class="form-parametrs__item-checkboxes">
+										<div class="form-parametrs__item-checkbox">
+											<input id="bay" type="checkbox">
+											<label for="bay">Рядом с заливом</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="embankment" type="checkbox">
+											<label for="embankment">На набережной</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="park" type="checkbox">
+											<label for="park">Рядом парк</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="window" type="checkbox">
+											<label for="window">С панорамными окнами</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="furniture" type="checkbox">
+											<label for="furniture">С меблировкой</label>									
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>		
+					</div>
+					<div class="form-parametrs__submit">
+						<div class="form-parametrs__submit__settings-reset">
+							<button type="reset">Сбросить</button>
+						</div>
+						<div class="form-parametrs__submit__settings-map"></div>
+						<div class="form-parametrs__submit__settings-submit">
+							<button type="submit">Показать 11 806 квартир в 1 829 ЖК</button>
+						</div>
+					</div>
+				</div>
+				<div class="form-parametrs-block house">
+					<div class="form-parametrs__house-village">
+						<div class="form-parametrs__title">Дом</div>
+						<div class="form-parametrs__items">							
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Год постройки</div>
+									<div class="form-parametrs__item-select">
+										<div class="form-parametrs__select-header">
+											<span class="form-parametrs__select-current">Неважно</span>
+											<div class="form-parametrs__select-arrow"></div>
+										</div>
+										<div class="form-parametrs__select-list">
+											<div class="form-parametrs__select-item">2016</div>
+											<div class="form-parametrs__select-item">2017</div>
+											<div class="form-parametrs__select-item">2018</div>
+											<div class="form-parametrs__select-item">2019</div>
+											<div class="form-parametrs__select-item">2020</div>
+											<div class="form-parametrs__select-item">2021</div>
+											<div class="form-parametrs__select-item">2022</div>
+										</div>
+									</div>
+								</div>								
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Статус земли</div>
+									<div class="form-parametrs__item-checkboxes">
+										<div class="form-parametrs__item-checkbox">
+											<input id="ijs" type="checkbox">
+											<label for="ijs">ИЖС</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="dnp" type="checkbox">
+											<label for="dnp">ДНП</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="lph" type="checkbox">
+											<label for="lph">ЛПХ</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="snt" type="checkbox">
+											<label for="snt">СНТ</label>									
+										</div>
+										<div class="form-parametrs__item-checkbox">
+											<input id="mjs" type="checkbox">
+											<label for="mjs">МЖС</label>									
+										</div>
+									</div>									
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Этажей в доме</div>
+									<div class="form-parametrs__item-range" id="range__inputs">
+										<div class="range__inputs">
+											<div class="range__input_item">
+												<span>от</span>
+												<input id="input_from_floor_cottage" class="range__input" value="0">
+												<span>сот.</span>
+											</div>
+											<div class="range__input_item">
+												<span>до</span>
+												<input id="input_to_floor_cottage" class="range__input" value="0">
+												<span>сот.</span>
+											</div>										
+										</div>
+										<input id="range__input_floor_cottage" type="text" class="irs-hidden-input" tabindex="-1" value>									
+									</div>
+								</div>
+								<div class="form-parametrs__item">
+									<div class="form-parametrs__item-title">Тип дома</div>
+									<div class="form-parametrs__item-radios">
+										<input id="brick" type="radio" value="brick" name="typehouse">
+										<label for="brick">Кирпичный</label>
+	
+										<input id="monolithic" type="radio" value="monolithic" name="typehouse">
+										<label for="monolithic">Монолитный</label>
+	
+										<input id="panel" type="radio" value="panel" name="typehouse">
+										<label for="panel">Панельный</label>
+	
+										<input id="brick_monolithic" type="radio" value="brick_monolithic" name="typehouse">
+										<label for="brick_monolithic">Кирпично-монолитный</label>
+	
+										<input id="block" type="radio" value="block" name="typehouse">
+										<label for="block">Блочный</label>
+									</div>
+								</div>
+							</div>						
+						</div>
+					</div>
+					<div class="form-parametrs__submit">
+						<div class="form-parametrs__submit__settings-reset">
+							<button type="reset">Сбросить</button>
+						</div>
+						<div class="form-parametrs__submit__settings-map"></div>
+						<div class="form-parametrs__submit__settings-submit">
+							<button type="submit">Показать 11 806 квартир в 1 829 ЖК</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>		
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
